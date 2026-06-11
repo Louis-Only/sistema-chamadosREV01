@@ -1,0 +1,131 @@
+/* =====================================================
+   CSS PERSONALIZADO - SISTEMA DE CHAMADOS
+   ===================================================== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-sistema {
+    background-color: #f5f3ed;
+}
+
+.card-principal {
+    width: 100%;
+    max-width: 430px;
+    border-radius: 16px;
+    border: 1px solid #e5e5e5;
+}
+
+.card-formulario {
+    width: 100%;
+    max-width: 480px;
+    border-radius: 16px;
+    border: 1px solid #e5e5e5;
+}
+
+.card-cadastro {
+    width: 100%;
+    max-width: 560px;
+    border-radius: 16px;
+    border: 1px solid #e5e5e5;
+}
+
+.icone-sistema {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #e8efff;
+    color: #4f73c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.titulo-sistema {
+    font-size: 30px;
+    font-weight: 700;
+    color: #151515;
+}
+
+.titulo-formulario {
+    font-size: 32px;
+    font-weight: 700;
+    color: #151515;
+}
+
+.texto-sistema {
+    font-size: 16px;
+    color: #555;
+}
+
+.btn {
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 12px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.form-control,
+.form-select {
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.link-sistema {
+    color: #315da8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link-sistema:hover {
+    text-decoration: underline;
+}
+
+.link-voltar {
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.link-voltar:hover {
+    text-decoration: underline;
+}
+
+/* Cards da listagem de chamados */
+.card-chamado {
+    background-color: #f5f3ed;
+    border-radius: 14px;
+    padding: 22px;
+    border: 1px solid #ece9df;
+}
+
+/* Etiquetas visuais para cada status do chamado */
+.status-chamado {
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.status-aberto {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-analise {
+    background-color: #dbeafe;
+    color: #1d4ed8;
+}
+
+.status-resolvido {
+    background-color: #dcfce7;
+    color: #166534;
+}
